@@ -4,8 +4,9 @@
 int main(void)
 {
 	int x;
-	strand(time(0));
+	strand (time(0));
 	x = rand() - RAND_MAX / 2;
-	printf("%d\n", x)
+
+	printf("%d\n", x);
 		return 0;
 }
