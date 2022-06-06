@@ -4,6 +4,6 @@
 
 int main(void)
 {
-	int x; strand(time(0)); x = rand();
+	int x; srand(time(0)); x = rand();
 	printf("%d \n", x);
 	return 0;
