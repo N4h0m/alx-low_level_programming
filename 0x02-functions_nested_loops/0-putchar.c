@@ -1,4 +1,7 @@
 #include <studio.h>
 #include <main.h>
 
-_putchar(“_putchar\n”);
+int main(void)
+{
+	printf(“_putchar\n”);
+}
